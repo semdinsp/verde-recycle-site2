@@ -22,6 +22,8 @@ export default () => (
           dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
         />
         <Link to='/contact' className="button -primary">Get in touch &rarr;</Link>
+        <Link to='https://www.gofundme.com/f/verde-recycled-house' className="button -primary">GoFundMe Project &rarr;</Link>
+        
       </div>
     )}
   />
