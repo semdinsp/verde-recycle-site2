@@ -3,7 +3,7 @@ template: BlogPost
 path: /plastic-tiles
 date: 2020-02-20T14:59:36.571Z
 title: Our plastic tile production samples
-thumbnail: /assets/image-5.jpg
+thumbnail: /assets/recycletile.jpg
 ---
 ## Tile production
 
