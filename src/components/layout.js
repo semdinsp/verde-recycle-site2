@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
-const gitbranch=process.env.GATSBY_BRANCH
+const gitbranch=process.env.BRANCH
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -29,7 +29,8 @@ export default ({ children }) => {
       <footer className="site-footer">
         <p>&copy; {new Date().getFullYear()} Verde Lds &bull; Crafted with <span role="img" aria-label="love">❤️</span> </p>
         <p><small>branch2: {gitbranch} </small></p>
-        <p><small>branch: {process.env.GATSBY_BRANCH} </small></p>
+        <p><small>branch3: {process.env.GATSBY_BRANCH} </small></p>
+        <p><small>branch: {process.env.BRANCH} </small></p>
       
       {trackCustomEvent({
                 category: "pageview",
