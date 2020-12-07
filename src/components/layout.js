@@ -30,7 +30,7 @@ export default ({ children }) => {
         <p>&copy; {new Date().getFullYear()} Verde Lds &bull; Crafted with <span role="img" aria-label="love">❤️</span> </p>
         <p><small>branch2: {gitbranch} </small></p>
         <p><small>branch3: {process.env.GATSBY_BRANCH} </small></p>
-        <p><small>branch4: abbranchtest </small></p>
+        <p><small>branch4: abbranchtest  test</small></p>
         <p><small>branch: {process.env.BRANCH} </small></p>
       
       
