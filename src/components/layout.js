@@ -32,7 +32,15 @@ export default ({ children }) => {
         <p><small>branch3: {process.env.GATSBY_BRANCH} </small></p>
         <p><small>branch4: abbranchtest  test</small></p>
         <p><small>branch: {process.env.BRANCH} </small></p>
-      
+      <!--ADDED SCOTT  Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-E40TQXQZ7Y"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-E40TQXQZ7Y');
+      </script>
       
       {trackCustomEvent({
                 category: "pageview",
