@@ -4,6 +4,7 @@ path: /collections
 date: 2021-02-21T09:35:23.935Z
 title: Plastic Collections to Start March 2021
 metaDescription: 'recycling plastic, collections in dili, timor leste'
+thumbnail: /assets/recyclebin.jpg
 ---
 ## Collections to Start in March
 
