@@ -8,7 +8,7 @@ thumbnail: /assets/meeting.jpg
 ---
 Team, fantastic news!
 
-An anonymous donor has kindly agreed to completely fund our first Verde Recycle house. For privacy reasons the donor wants to remain anonymous. Verdeka will manage the construction of the house.This is fantastic news as we can test out the production of building materials from recycled plastic and place orders on local suppliers. Total funding up to date is $6,000 for one house, $750 direct in Timor and a futrher $700 from gofundme collections.We will select one of our proposed families and start the build out process in February.We will keep you updated and thank you for your support. Please inform your friends of good news.
+An anonymous donor has kindly agreed to completely fund our first Verde Recycle house. For privacy reasons the donor wants to remain anonymous. Verdeka will manage the construction of the house.This is fantastic news as we can test out the production of building materials from recycled plastic and place orders on local suppliers. Total funding up to date is $6,000 for one house, $750 direct in Timor and a further $700 from gofundme collections.We will select one of our proposed families and start the build out process in February.We will keep you updated and thank you for your support. Please inform your friends of good news.
 
 ![project meeting](/assets/meeting.jpg "Project Meeting Nazareth Foundation")
 
@@ -17,8 +17,6 @@ Today, Verdeka team met Nazareth Foundation team (FB: Nazareth Foundation) who i
 ![house design](/assets/houseedesign.jpg "house design")
 
 The first family to receive the Verde House donation would be a disabled family, Mr Abilio De Araujo.
-
-
 
 ## February Update
 
