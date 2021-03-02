@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /mercycorp
+path: /mercycorppartner
 date: 2021-03-02T09:42:57.119Z
 title: Mercy Corp Partnership
 metaDescription: Mery corps
