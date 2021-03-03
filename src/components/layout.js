@@ -3,6 +3,16 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
+
+import {
+  faCoffee,
+  faAtom,
+} from '@fortawesome/free-solid-svg-icons'
+
 const gitbranch=process.env.BRANCH
 
 export default ({ children }) => {
@@ -27,27 +37,25 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Verde Lds &bull; Crafted with <span role="img" aria-label="love">❤️</span> </p>
-        <p><small>branch4: abbranchtest  test</small></p>
-        <p><small>branch: {process.env.BRANCH} </small></p>
-      {/*  COMMENTING FUNNY
-        // <Helmet>
-        //  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E40TQXQZ7Y"></script>
-        //  <script type='text/javascript'>  (function(d, s) {  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-E40TQXQZ7Y');     console.log("ga version 4 data sent");  } (document, 'script')); </script>
-        //</Helmet>
-        -->
-        */}
-      
+        <p>&copy; {new Date().getFullYear()} Verde Lds &bull; Crafted with <span role="img" aria-label="love">❤️</span>
+          <a href='https://www.facebook.com/VerdeRecycledHouse' className="buttonfb -primary">
+            <span className="icon"><FontAwesomeIcon icon={faFacebookF} />   </span>
+          </a>
+          <a href='https://www.facebook.com/VerdeRecycledHouse' className="buttonfb -primary"><span className="icon"><FontAwesomeIcon icon={faInstagram} />   </span></a>
+         </p>
+
+
+
       {trackCustomEvent({
                 category: "pageview",
                 action: "view",
                 label: "branch",
-                value:  process.env.BRANCH
+                value:  gitbranch
                 // string - required - The object that was interacted with (e.g.video)
               })  }
-    
+
       </footer>
-      
+
     </div>
   )
 }
