@@ -7,6 +7,7 @@ import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import HeaderLogo from "../components/logo"
 
 import {
   faCoffee,
@@ -31,6 +32,7 @@ export default ({ children }) => {
     <div className="site-wrapper">
       <header className="site-header">
         <div className="site-title">
+          < HeaderLogo />
           <Link to="/">{data.site.siteMetadata.title}</Link>
         </div>
         <Navigation />
