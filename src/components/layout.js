@@ -32,8 +32,7 @@ export default ({ children }) => {
     <div className="site-wrapper">
       <header className="site-header">
         <div className="site-title">
-          < HeaderLogo />
-          <Link to="/">{data.site.siteMetadata.title}</Link>
+          <Link to="/">< HeaderLogo />{data.site.siteMetadata.title}</Link>
         </div>
         <Navigation />
       </header>
