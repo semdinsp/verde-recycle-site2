@@ -23,6 +23,7 @@ export default () => (
         />
         <Link to='/contact' className="button -primary">Get in touch &rarr;</Link>
         <a href='https://www.gofundme.com/f/verde-recycled-house' className="button -primary">GoFundMe Project &rarr;</a>
+        <a href='https://maps.verde-tl.com' className="button -primary">Map Recycle Bins &rarr;</a>
         
       </div>
     )}
